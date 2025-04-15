@@ -1,0 +1,49 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    color: #333;
+    margin: 40px;
+  }
+  
+  .header {
+    background-color: #005a87;
+    color: white;
+    padding: 20px;
+    text-align: centre ;
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size:36px;
+    letter-spacing:2px;
+  }
+
+  .section{
+    margin-top: 30px;
+  }
+
+  .section-title {
+    color: #005a87;
+    font-size: 22px;
+    margin-bottom:10px;
+    border-bottom:5px;
+  }
+
+  .contact p {
+    margin:5px 0;
+  }
+
+  .list {
+    list-style:none;
+    padding-left:0;
+  }
+
+  .list li::before {
+    content:".";
+    color:#005a87;
+    display: inline-block;
+    width:1em;
+    margin-left: -1em;
+  }
+  
